@@ -6,6 +6,8 @@ rng_goblin = random.randint(200,1000)
 rng_player = random.randint(0,15)
 rng_weapon = random.randint(1,100)
 
+print("Jeromey Scrubbington wakes up alone in a dark cave, wearing no pants and holding an empty bottle in his right hand. He stands up and before him lies two tunnels...")
+
 # If random number is between 0 and 50, the goblin has a club
 if 0 < rng_weapon and rng_weapon <= 50:
     weapon = "club"
